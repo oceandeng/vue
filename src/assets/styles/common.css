@@ -1,0 +1,73 @@
+﻿html {
+  overflow-y: scroll;
+}
+
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+:root body {
+  position: absolute;
+}
+
+body {
+  width: 100vw;
+  font-size: 14px;
+  overflow: hidden;
+  color: #666;
+}
+
+.waper{
+	width: 1140px;
+	height: auto;
+	padding: 20px;
+	background-color: #fff;
+}
+ul,ol,li{
+  list-style: none;
+}
+.con-wrap{
+    padding: 20px;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:before, .clearfix:after{
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.clearfix:after{
+    clear: both;
+}
+.left{float: left}
+.right{float: right}
+.price{
+    font-size: 24px;
+    color: #ff5000;
+    font-weight: bold;
+}
+.g-price{
+    font-size: 14px;
+    color: #999;
+}
+.mr10{margin-right: 10px !important}
+.ml20{margin-left: 20px !important}
+.f-button{
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+}
+.fc999{color: #999}
+.f18{font-size: 18px}
+.orange{color: #f40}
+.cus-disabled{
+    background: #b0b0b0 !important;
+    cursor: not-allowed !important;
+}
+.box-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
